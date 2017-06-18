@@ -1,7 +1,7 @@
 # config valid only for current version of Capistrano
 lock  '3.8.2'
 
-server '34.211.30.102', roles: [:web, :app, :db], primary: true
+server '34.211.216.65', roles: [:web, :app, :db], primary: true
 
 set :user, 'deploy'
 set :local_user, 'deploy'
