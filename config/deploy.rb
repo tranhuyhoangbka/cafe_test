@@ -14,6 +14,7 @@ set :use_sudo , false
 set :stage, :production
 set :deploy_via, :remote_cache
 set :deploy_to, "/home/#{fetch(:user)}/#{fetch(:application)}"
+set :rvm_ruby, '2.3.1'
 
 set :puma_role, :app
 set :puma_workers, 2
